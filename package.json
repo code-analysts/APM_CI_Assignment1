@@ -4,6 +4,7 @@
   "description": "This is a simple login web app with Node.js and MySQL for the Auckland Property Management website.",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "jshint || true"
   },
   "author": "Farrah Marie Chavez",
