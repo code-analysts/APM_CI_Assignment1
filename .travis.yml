@@ -9,8 +9,19 @@ branches:
   - master
   - googleappengine
 deploy:
-  provider: azure_web_apps
-  username: Travisdeploy\$Travisdeploy
-  password: sAJgRoJhy3kpnDpXWTzX3J7Bnyo7x444Rau1LufPt61GzpkB8j3lHgkNKbJR
-  site: Travisdeploy
+  provider: gae
+  keyfile: {
+  "type": "service_account",
+  "project_id": "service-website-template",
+  "private_key_id": "d5ebbba5292efb265c3fdb3acc50f5c149b3beba",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDfN/InwUAXNQFm\nneesUJMFK5WYljdXqwMGaZOxbmUY3YnEWmzNFYDJLol9aM2T+Mw+ZoDJKJltUoR4\n8Ean6tWBKLEZKpZrBm5IVn+qRQWgxsrJlhB1x9uERviEWQfwU6Yk606AbUpJlJvs\nublkSDhLnSRHiSnGrAsG7YIccpWu0ZW00mHhG9DPc3ekBsqLTCMh+OIM7ZKiLjEh\nxuevXQbxWbB66k8v2uaKiHGPNZOAxeMKEvtjk0y2B/D94vhCw03IJ/7xgcWHL82o\nmUtbe3/p3m3YGBrcKTC/FtkySJHDIkUeTjVu28EtuiKgOaTc6udiS7ZZU8yQInnw\nTIxRXxG/AgMBAAECggEAIkclGJXEkcvB+1AkU4HMEe8vec8XkI7iWAm+dHDPdZIP\nped87cFvlXVgB7IgX6jFNI/pFvr1FKSnUysSrpaRUtQ83fB8SNMj/FfMIwmWY6oj\nWfGBdZTLUPTVFP3XCkDOMr0vwOkHj2USzLd4kL3GZ1YqTBH0KF4jE11Frbiq471i\nHqwEduaWFNtOh80ObrE0eEAZuI+f4SXZpLNe20z+wxMz/W7slDc+RA2D0tdYN2fy\nAk4e/fPtX2dTE0c51Yt5xpv0oA8OvjBMM3iS8YrGQPfg5Q6BQsKvxZSsGuskZMp6\nZS+kWRvRse2TXLuRW1pHM/YP9D11qWLoGyANQvpYAQKBgQD1OtP6E419K5GfEN60\nONPWVvqU/R3Exv9zZ0PJQoHE9QmphNtER2ybsAYAZMC/9nm7k+lSorSA5mTFKpHw\nOgIgkI+V008jSnHlbJTVoBtT5VPl7KbtvbBtqTBKPn8UBhnfwYpgmS3NgOQPxta9\nwyr3UsSa718yn0U06WpzzNg5/wKBgQDpBaP5BqlD4h3+wNoxSr8JZfE6HqIBhmG/\nfsKFBZXQBnAABqvjWXpwarF0AXkFoeYqdPA9aBIySgYCCtAWXHXmWNK7brBs/a6V\nhL+DuC2BmFPyOTGGOAMTddakiJAfUTUvpcTPUjc9zjp3hZKR3M++2+ivtIBbFudo\nFBtEzZeoQQKBgHqDEkWcIRKIgq6p+eilf0dUmsl2DroxBIu96kKQxE4GcPZMllJt\nMFgzPzxRGW6Nj1Fj2qva9zxyXaOW2ePexxNHxUP/lki2N2J7tXtoCl8GcbyrVtXs\n70hJvwNIZ6o0RhbgFOafgB9rpgQvvTZ+W2fF5MzWi4O5yBRgDDuf+eI3AoGBAISk\nEk95bDZY6wwNSOZQDuhRn/ueXkeR7+gqRp2jrUBpua06HvPeBiUhhntrLzF2k+bN\nA8dgiyMXIc5dy08/OFlzbBkHC+QujwdLNhzLZRPk2rwBtGAbWBzmsdSca7V361eA\n+8OroAhNcNiCLwlacOLKmOwTShEPu49yCoeio9ZBAoGANxalZ09GWgc7dw876A4L\nrAUsq+DmBMAP/tzlSbBqLK/DwTzTNIwbJ8QRNL3XOaPsZQm669VfCB3e2Zg6ek6I\nsOq5TzpnxAmnYWlpBPxXe50h+goIyIslOL4g+D02M7lC9eOlZTb6CMNGXjmA9z4p\nJw6ZOhkyGxl46lpfAi53lx4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "farrahmariechavez@service-website-template.iam.gserviceaccount.com",
+  "client_id": "106384298239329451519",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/farrahmariechavez%40service-website-template.iam.gserviceaccount.com"
+}
+  project: "d5ebbba5292efb265c3fdb3acc50f5c149b3beba",
+  on: googleappengine
 
