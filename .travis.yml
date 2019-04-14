@@ -4,3 +4,9 @@ node_js:
 cache:
   directories:
     - "node_modules"
+deploy:
+  provider: azure_web_apps
+  username: Travisdeploy\$Travisdeploy
+  password: sAJgRoJhy3kpnDpXWTzX3J7Bnyo7x444Rau1LufPt61GzpkB8j3lHgkNKbJR
+  site: Travisdeploy
+
