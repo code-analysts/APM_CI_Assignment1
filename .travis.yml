@@ -4,6 +4,10 @@ node_js:
 cache:
   directories:
     - "node_modules"
+branches:
+  only:
+  - master
+  - googleappengine
 deploy:
   provider: azure_web_apps
   username: Travisdeploy\$Travisdeploy
